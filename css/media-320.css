@@ -1,0 +1,871 @@
+@media (max-width: 320px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    body {
+        font-family: Roboto, sans-serif;
+    }
+    
+    /*Шапка сайта*/
+    .header {
+        background-image: url("/content/11.jpg");
+        background-position: center;
+        height: 713px;
+        z-index: -2;
+    }
+    
+    .button-with-yellow {
+        max-width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    
+        height: 207px;
+        width: 320px;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+        
+    }
+    
+    
+    
+    .rectangle {
+        position: absolute;
+        left: 0;
+        top: 491px;
+        width: 320px;
+        height: 207px;
+        z-index: 0;
+    }
+    
+    .text-yellow-blok {
+        position: absolute;
+        top: 521px;
+        left: 0px;
+    }
+    
+    .text_yellow {
+        text-align: center;
+        font-size: 30px;
+        font-family: Archangelsk;
+        font-weight: 400;
+        letter-spacing: 0%;
+        z-index: 1;
+        text-wrap: nowrap;
+        margin-bottom: 25px;
+        margin-left: 38px;
+    }
+    
+    .hed-1{
+        display: none;
+    }
+
+    .hed-2{
+        display: block;
+    }
+
+    .btn-yellow {
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #F8F200;
+        background-color: #000;
+        width: 244px;
+        height: 60px;
+        text-decoration: none;
+        border: 0px;
+        z-index: 1;
+        position: absolute;
+        left: 38px;
+    }
+    
+    .container {
+        max-width: 3200px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .logo img {
+        vertical-align: bottom;
+        width: 200px;
+        height: 50px;
+        padding-top: 20px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
+    .menu {
+        margin-left: 0px;
+    }
+    
+    .menu ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .menu-item_last {
+        margin-top: 10px;
+    }
+    
+    .menu img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .frst{
+        margin-top: 10px;
+        margin-right: 28px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+        margin-right: 28px;
+
+        
+    }
+    
+    .menu-item a {
+        font-size: 15px;
+        color: #030305;
+        text-decoration: none;
+    }
+    
+    .menu-item a:hover {
+        border-bottom: 2px solid #fe9d00;
+    }
+    
+    
+    .block-2 {
+        background-color: #ffffff;
+        background-size: cover;
+    }
+    
+    .main-title {
+        font-size: 30px;
+        font-family: Archangelsk;
+        font-weight: 400;
+        letter-spacing: 0%;
+        width: 296px;
+        margin-top: 70px;
+    }
+    
+    .main-text {
+        width: 296px;
+        height: 400px;
+        padding-top: 25px;
+    }
+    
+    .main-text p {
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0%;
+        padding-top: 25px;
+    }
+    
+    .main-text span {
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0%;
+    }
+    
+    .image-futur {
+        display: flex;
+        flex-direction: column;
+        /* Используем Flexbox */
+        padding-top: 70px;
+        margin-left: -20px;
+    }
+    
+
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        /* Элементы внутри .left будут располагаться вертикально */
+        padding-right: 0px;
+        width: 320px;
+        height: 424px;
+    }
+    
+    .right {
+        height: 424px;
+        width: 320px;
+        margin-top: 32px;
+    }
+    
+    
+    .top img,
+    .bottom img {
+        width: 320px;
+        height: 196px;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    
+    .bottom {
+        margin-left: 0px;
+        padding-top: 32px;
+        padding-bottom: 0%;
+    }
+    
+    .right img {
+        width: 320px;
+        height: 424px;
+    }
+    
+    .between {
+        background-image: url("/content/22_1.jpg");
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: 70px;
+    }
+    
+    .block-2 {
+        padding-bottom: 70px;
+        
+    }
+    
+    .block-3 {
+        background-color: #000;
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: auto;
+        z-index: -1;
+
+    }
+    
+    .balock-3-up {
+        padding-top: 15px;
+        display: flex;
+        /* Размещаем элементы в строку */
+        flex-wrap: nowrap;
+        /* Запрещаем перенос элементов на новую строку */
+
+        flex-direction: column;
+        }
+    
+    .balock-3-up img {
+        width: 62px;
+        height: 62px;
+    }
+
+    .obsee{
+        display: flex;
+    }
+    
+    .title-text {
+        font-size: 62px;
+        font-family: Archangelsk;
+        font-weight: 400;
+        letter-spacing: 0%;
+        color: #fff;
+        white-space: nowrap;
+        padding-top: 15px;
+        padding-left: 0px;
+        display: none;
+    }
+    
+    .sub-title-text p {
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0%;
+        color: #fff;
+
+
+    }
+    
+    .sub-title-text span {
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0%;
+        color: #52BEDC;
+    
+    }
+    
+    .sub-title-text {
+        padding-top: 125px;
+        max-width: 320px;
+        width: 296px;
+    }
+
+    .title-text-1024{
+        font-size: 62px;
+        font-family: Archangelsk;
+        font-weight: 400;
+        letter-spacing: 0%;
+        color: #fff;
+        white-space: nowrap;
+        padding-top: 15px;
+        padding-left: 0px;
+        display: none;
+    }
+    
+    .title-text-320{
+        display: block;
+        font-size: 30px;
+font-family: Archangelsk;
+font-weight: 400;
+letter-spacing: 0%;
+color: white;
+text-wrap: nowrap;
+padding-top: 143px;
+padding-left: 0px;
+padding-bottom: 0;
+margin-bottom: 0;
+    }
+
+    .form-ps {
+        padding-top: 0px;
+        display: flex;
+    }
+    
+    .checkbox label {
+        color: #fff;
+        font-size: 12px;
+font-family: Roboto;
+font-weight: 300;
+letter-spacing: 0%;
+
+    }
+
+    .checkbox{
+        margin-bottom: 70px;
+    }
+
+    .file-info{
+        display: none;
+    }
+    
+    .form-container {
+        padding-top: 70px;
+    }
+    
+    .upload-container {
+    
+        height: 118px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        border: 1px dashed #777777;
+        border-radius: 5px;
+        width: 296px;
+        border-width: 1px;
+    
+    }
+    
+    .upload-label {
+        margin-bottom: 0px;
+        background-color: black;
+        color: white;
+        margin-top: 50px;
+        border-radius: 0px;
+        cursor: pointer;
+        
+    }
+    
+    .file-info {
+        margin-top: 10px;
+        color: #666;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+    }
+    
+    .name,
+    .email {
+        border: 0px;
+        background-color: #000;
+        border-bottom: solid 1px #777;
+        padding-bottom: 13px;
+        margin-bottom: 35px;
+        width: 298px;
+    }
+    
+    .name::placeholder,
+    .email::placeholder {
+        color: #fff;
+    }
+    
+    .send {
+        background-color: #F8F200;
+        width: 182px;
+        height: 59px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        color: #000;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 700;
+        letter-spacing: 0%;
+    }
+    
+    .ps {
+        display: flex;
+        
+        margin-left: 0px;
+        flex-direction: row;
+        
+    }
+    
+    .back-yellow {
+        position: absolute;
+        width: 132px;
+        height: 130px;
+    }
+    
+    .x-box {
+        position: absolute;
+        width: 95px;
+        height: 100.72px;
+        margin-left: 47px;
+        margin-top: 7px;
+    }
+    
+    .back-blue {
+        position: absolute;
+        z-index: 0;
+        width: 132px;
+        height: 130px;
+    }
+    
+    .ps-5-3 {
+        position: relative;
+        margin-left: 47px;
+        margin-top: 7px;
+        width: 95px;
+        height: 100.72px;
+    }
+    
+    .x-box_plus-x-box {
+        position: absolute;
+        width: 132px;
+        height: 130px;
+        top: 2528px;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .ps-5_plus-back {
+        padding-top: 0px;
+        margin-top: -425px;
+        margin-left: -310px;
+        width: 460px;
+    }
+    
+    .between-3-4 {
+        background-image: url("/content/22_2.jpg");
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: 70px;
+    }
+    
+    .block-4 {
+        background-color: #F8F200;
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: 1040px;
+    
+        display: flex;
+        padding-top: 70px;
+        padding-bottom: 0px;
+
+    }
+
+
+    .mon img{
+        width: 296px;
+        height: 204px;
+    }
+
+    .mon-log {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    
+    .logs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 26px;
+        height: 80px;
+    }
+    
+    .hp{
+        width: 43.85px;
+        height: 44px;
+    }
+
+    .cyb{
+        width: 175.41px;
+        height: 44px;
+    }
+
+    .x {
+        height: 10.55px;
+        width: 49.33px;
+        margin-left: 13.7px;
+        margin-right: 13.7px;
+    }
+    
+    .text-block {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    
+    .main-text-4 {
+    
+        font-size: 62px;
+        font-family: Archangelsk;
+        font-weight: 400;
+        letter-spacing: 0%;
+        white-space: nowrap;
+        display: none;
+    }
+
+    .main-text-4-320{
+        display: block;
+        font-size: 30px;
+    font-family: Archangelsk;
+    font-weight: 400;
+    letter-spacing: 0%;
+    white-space: nowrap;
+
+    }
+    
+    .main-yellow-back {
+        display: flex;
+        flex-direction: column;
+        width: 296px;
+        height: 900px;
+
+    }
+    
+    .sub-text {
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 296px;
+    }
+    
+    .punkt {
+    
+        width: 296px;
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .punkt p{
+        margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+letter-spacing: 0%;
+margin-left: 18px;
+    }
+    
+    .fs {
+        margin-top: 25px;
+    }
+    
+    .btn-send-4 button {
+        height: 60px;
+        width: 184px;
+        margin-top: 40px;
+        background-color: #000;
+        color: #F8F200;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        letter-spacing: 0%;
+    }
+        
+    .block-5{
+        display: flex;
+        flex-direction: column;
+        max-height: 785px;
+        
+    }
+    
+    .left-5{
+        background-image: url("/content/Untitled-1\ 1.jpg");
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: 198px;
+        width: 320px;
+    
+    
+    }   
+    
+    .right-5{
+        background-color: #000;
+        background-size: cover;
+        /* Растягивает изображение на весь размер контейнера */
+        background-position: center;
+        /* Выравнивает изображение по центру */
+        height: 587px;
+    
+        width: 692px;
+        margin-bottom: -130px;
+    
+    }
+    
+    .title-5{
+        font-size: 30px;
+    font-family: Archangelsk;
+    font-weight: 400;
+    letter-spacing: 0%;
+        color: #fff;
+        text-wrap: nowrap;
+        
+    }
+    
+    .sub-5{
+        font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: #52BEDC;
+    margin-top: 25px;
+    }
+    
+    .text-block-5{
+        margin-top: 40px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .fs-5{
+        margin-top: 20px;
+    }
+
+    .img-5{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .punkt-5{
+        display: flex;
+        text-align: left;
+        flex-wrap: nowrap;
+        margin-top: 15px;
+    }
+    
+    .punkt-5-2{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 15px;
+    
+    }
+    
+    .punkt-bottom{
+        margin-bottom: 40px;
+    }
+    
+    .text-5{
+        font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 18px;
+    width: 254px;
+    }
+    
+    .title-5-bottom{
+        font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: #52BEDC;
+    margin-bottom: 25px;
+    
+    }
+    
+    .ps-5{
+        margin: 0px;
+        margin-right: 56px;
+        width: 62px;
+        height: 35.19px;
+        
+    }
+    
+    .xbox-5{
+        width: 178px;
+        height: 38.19px;
+    }
+
+    .stadia-5{
+        margin-right: 70px;
+        width: 58px;
+        height: 50.17px;
+    }
+    
+    .sp4-5{
+        width: 168px;
+        height: 35.19px;
+    }
+
+    .top-5{
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+    
+    .bottpm{
+        margin-bottom: 70px;
+    }
+    
+    .logo-footer{
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+        height: 50px;
+    }
+
+    .ptichka{
+        width: 166.25px;
+        height: 50px;
+
+        margin-left: auto;
+    }
+    
+    .logo-foote-cont{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 60px;
+        margin-top: 160px;
+        margin-bottom: 13px;
+    }
+    
+    .text-footer-cont{
+        position: absolute;
+        right: 0px;
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 36px;
+        display: none;
+    }
+    
+    .lic{
+        font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0%;
+    margin-right: 0px;
+    margin: auto;
+    margin-bottom: 15px;
+
+    }
+    
+    .polit{
+        font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0%;
+    
+    }
+    
+    .pre-footer{
+        background-color: white;
+        height: 300px;
+    
+    }
+    
+    .pre-footer a{
+        color: #000;
+    }
+    
+    .pre-footer .container{
+    
+    }
+    
+    .temp-6{
+        display: block;
+        height: 103px;
+        background-color: #E6E6E6;
+    }
+
+    .text-footer-cont-temp{
+        width: 242px;
+        height: 53px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        height: 40px;
+    }
+    
+    .text-footer{
+        font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    }
+    
+}
