@@ -14,7 +14,6 @@
     
     /*Шапка сайта*/
     .header {
-        background-image: url("/content/11.jpg");
         background-position: center;
         height: 1000px;
         z-index: -2;
@@ -24,14 +23,12 @@
         max-width: 1200px;
         padding-left: 0px;
         padding-right: 0px;
-    
         height: 369px;
         width: 624px;
         position: relative;
         margin-left: 656px;
         margin-top: 538px;
         text-align: center;
-        
     }
     
     
@@ -51,9 +48,8 @@
     .text_yellow {
         text-align: left;
         font-size: 62px;
-        font-family: Archangelsk;
+        font-family: 'Archangelsk';
         font-weight: 400;
-        letter-spacing: 0%;
         z-index: 1;
         text-wrap: nowrap;
         margin-bottom: 25px;
@@ -64,7 +60,6 @@
         font-family: Roboto;
         font-weight: 700;
         line-height: 40px;
-        letter-spacing: 0%;
         text-align: center;
         color: #F8F200;
         background-color: #000;
@@ -143,9 +138,8 @@
     .main-title {
         padding-top: 70px;
         font-size: 62px;
-        font-family: Archangelsk;
+        font-family: 'Archangelsk';
         font-weight: 400;
-        letter-spacing: 0%;
         width: 620px;
     }
     
@@ -160,7 +154,6 @@
         font-family: Roboto;
         font-weight: 400;
         line-height: 34px;
-        letter-spacing: 0%;
         padding-top: 25px;
     }
     
@@ -169,7 +162,6 @@
         font-family: Roboto;
         font-weight: 700;
         line-height: 34px;
-        letter-spacing: 0%;
     }
     
     .image-futur {
@@ -211,7 +203,6 @@
     }
     
     .between {
-        background-image: url("/content/22_1.jpg");
         background-size: cover;
         /* Растягивает изображение на весь размер контейнера */
         background-position: center;
@@ -255,9 +246,8 @@
     
     .title-text {
         font-size: 62px;
-        font-family: Archangelsk;
+        font-family: 'Archangelsk';
         font-weight: 400;
-        letter-spacing: 0%;
         color: #fff;
         white-space: nowrap;
         padding-top: 15px;
@@ -270,7 +260,6 @@
         font-family: Roboto;
         font-weight: 400;
         line-height: 34px;
-        letter-spacing: 0%;
         color: #fff;
 
 
@@ -281,7 +270,6 @@
         font-family: Roboto;
         font-weight: 700;
         line-height: 34px;
-        letter-spacing: 0%;
         color: #52BEDC;
     
     }
@@ -294,9 +282,8 @@
 
     .title-text-1024{
         font-size: 62px;
-        font-family: Archangelsk;
+        font-family: 'Archangelsk';
         font-weight: 400;
-        letter-spacing: 0%;
         color: #fff;
         white-space: nowrap;
         padding-top: 15px;
@@ -378,7 +365,6 @@
         font-size: 18px;
         font-family: Roboto;
         font-weight: 700;
-        letter-spacing: 0%;
     
     }
     
@@ -428,7 +414,6 @@
     }
     
     .between-3-4 {
-        background-image: url("/content/22_2.jpg");
         background-size: cover;
         /* Растягивает изображение на весь размер контейнера */
         background-position: center;
@@ -497,9 +482,8 @@
     .main-text-4 {
     
         font-size: 62px;
-        font-family: Archangelsk;
+        font-family: 'Archangelsk';
         font-weight: 400;
-        letter-spacing: 0%;
         white-space: nowrap;
     
     }
@@ -520,7 +504,6 @@
         font-family: Roboto;
         font-weight: 400;
         line-height: 34px;
-        letter-spacing: 0%;
         margin-top: 25px;
         margin-bottom: 25px;
     }
@@ -550,7 +533,6 @@
         font-size: 18px;
         font-family: Roboto;
         font-weight: 700;
-        letter-spacing: 0%;
     }
     
     .block-5{
@@ -561,7 +543,6 @@
     }
     
     .left-5{
-        background-image: url("/content/Untitled-1\ 1.jpg");
         background-size: cover;
         /* Растягивает изображение на весь размер контейнера */
         background-position: center;
@@ -587,9 +568,8 @@
     
     .title-5{
         font-size: 62px;
-    font-family: Archangelsk;
+    font-family: 'Archangelsk';
     font-weight: 400;
-    letter-spacing: 0%;
         color: #fff;
         text-wrap: nowrap;
     
@@ -599,7 +579,6 @@
         font-size: 24px;
     font-family: Roboto;
     font-weight: 700;
-    letter-spacing: 0%;
     color: #52BEDC;
     margin-top: 25px;
     }
@@ -631,7 +610,6 @@
         font-size: 18px;
     font-family: Roboto;
     font-weight: 400;
-    letter-spacing: 0%;
     color: #fff;
     margin-top: auto;
     margin-bottom: auto;
@@ -641,7 +619,6 @@
         font-size: 24px;
     font-family: Roboto;
     font-weight: 700;
-    letter-spacing: 0%;
     color: #52BEDC;
     margin-bottom: 25px;
     
@@ -692,7 +669,6 @@
         font-size: 18px;
     font-family: Roboto;
     font-weight: 400;
-    letter-spacing: 0%;
     margin-right: 32px;
     }
     
@@ -700,7 +676,6 @@
         font-size: 18px;
     font-family: Roboto;
     font-weight: 400;
-    letter-spacing: 0%;
     
     }
     
@@ -730,7 +705,6 @@
         font-size: 12px;
     font-family: Roboto;
     font-weight: 400;
-    letter-spacing: 0%;
     text-align: center;
     color: white;
     }
